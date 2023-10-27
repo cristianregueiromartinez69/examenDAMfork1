@@ -23,3 +23,21 @@
 5. le damos y arriba aparece la opcíon add y luego add to gitignore.
 6. le damos y ese archivo ya está en el gitignore
 7. luego, si quieres, puedes subirlo como haré yo ahora por lo del examen, pero lo recomendable es ~~NO HACERLO~~
+
+***Explicacion del .Jar***
+para crear el jar, tenemos que seguir estos pasos:
+1. tenemos que tener un programa sobre el que poder hacer el jar, que es lo que vamos a necesitar para que podamos ver el programa
+2. si ya lo tenemos, hacemos lo siguiente.
+3. nos vamos al menu del IDE y le damos a proyect structure
+4. luego le damos a artifacts y luego  JAR
+5. le damos a crear de modulos con dependencia o existencia para escoger la clase main, que es desde donde se va a ejecutar el programa.
+6. le damos después a apply y y aceptar
+7. después en el menú nos vamos a build, build artifacts y ahí tendríamos que ver el archivo jar
+8. le damos a build y ya se creó
+9. si los pasos están bien, nos debería de aparecer una carpeta que pone **out** que es donde está nuestro jar
+10. para poder saber si está todo bien y si nuestro jar se ejecuta, tenemos que hacer unos comandos en el terminal
+11. cd al archivo out y vamos haciendo cd hasta llegar al archivo jar
+12. en el archivo jar hacer ***java -jar (nombre del archivo jar)***
+13. si está todo bien, debería de funcionar.
+14. luego para subirlo ya lo explicamos.
+15. git add (archivo jar), git commit -m (comentario de lo que subes), git push -u origin (main/master)
